@@ -1,0 +1,386 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	font-family: system-ui,
+	 -apple-system, BlinkMacSystemFont,
+	  "Segoe UI", Roboto, 
+	 Oxygen-Sans, Ubuntu,
+	  Cantarell,
+	  "Helvetica Neue",
+	   Arial, sans-serif, 
+	 "Apple Color Emoji",
+	  "Segoe UI Emoji",
+	  "Segoe UI Symbol";
+}
+
+a{
+	text-decoration: none;
+	color: #FF4500;
+}
+
+
+
+
+/* Header */
+
+header{
+	width: 100%;
+	display: flex;
+	background: orangered;
+}
+
+nav{
+	margin-top: 80px;
+	margin-left: 10%;
+	font-family: 'Fredoka One', cursive;
+}
+
+#header__spanid{
+	font-weight: 800;
+}
+
+
+.header__nav a{
+	color: 	#FFFFFF;
+	text-align: center;
+	padding: 1px 16px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#drink__id:hover{
+	background: #16BC00;
+	border-radius: 10px;
+}
+
+#Sause__id:hover{
+	background: #16BC00;
+	border-radius: 10px;
+}
+
+#Coffe__id:hover{
+	background: #16BC00;
+	border-radius: 10px;
+}
+
+#pizza__id:hover{
+	background: #16BC00;
+	border-radius: 10px;
+}
+
+#corzina__id:hover{
+	background: #16BC00;
+	border-radius: 10px;
+}
+
+.PUSTO{
+	padding-top: 25px;
+}
+
+
+.header__logo{
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: 800;
+	cursor: pointer;
+	margin-top: 56px;
+	margin-left: 5%;
+}
+
+.header__logo p{
+	margin-left: 50px;
+	font-size: 50px;
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.header__logo a{
+	color: #FFFFFF;
+}
+
+
+#Fast__idlogo{
+	font-family: 'Fredoka One', cursive;
+}
+
+.header__nav .icon{
+	display: none;
+	font-size: 50px;
+}
+
+
+
+/* Media */
+
+
+@media screen and (max-width: 1010px){
+
+	.footer__all .footer__job{
+		padding-left: 10px;
+	}
+
+	main p{
+		font-size: 15px;
+	}
+
+	.div__all{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	#div__allid{
+	padding-left: 50px;
+	padding-right: 50px;	
+	}
+
+	.footer__location{
+		padding-left: 0px;
+	}
+
+	#footer__locationid{
+		padding-left: 0px
+	}
+}
+
+
+
+@media screen and (max-width: 1200px){
+	nav{
+		margin-left: 20%;
+	}
+}
+
+@media screen and (max-width: 1105px){
+	nav{
+		margin-left: 10%;
+	}
+}
+
+
+
+
+/* Pizza */
+
+.div__all{
+	padding-top: 35px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+article{
+	padding-top: 20px;
+	margin: 25px;
+	display: inline-block;
+}
+
+main a{
+	font-size: 25px;
+	font-family: 'Fredoka One', cursive;
+}
+
+main a:hover{
+	font-size: 24px;
+	color: #16BC00;
+}
+
+article footer p{
+	padding-top: 10px;
+	font-size: 28px;
+}
+
+button {
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	font-family: 'Pacifico', cursive;
+}
+
+article button{
+	padding-top: 10px;
+	display: inline-block;
+	font-size: 25px;
+	border: none;
+	background: #E9E9E9;
+	padding: 3px;
+	border-radius: 10px;	
+}
+
+article button:hover{
+	color: #FFF;
+	background: #16BC00;
+	padding: 3px;
+	border-radius: 10px;
+}
+
+#pizza__h1id{
+	color: #FF4500;
+}
+
+.Pizza__article main a{
+	font-size: 25px;
+}
+
+article footer p{
+font-family: 'Raleway', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+
+
+/* Drink */
+
+#drink__h1id{
+	color: #FF4500;
+}
+
+.drink__h1{
+	padding-top: 50px;
+}
+
+.drink__article main a{
+	font-size: 25px;
+}
+
+
+
+/* Sause */
+
+#Sause__h1id{
+	color: #FF4500;
+}
+
+.Sause__article main a{
+	font-size: 25px;
+}
+
+
+/* Coffe */
+
+#Coffe__h1id{
+	color: #FF4500;
+}
+
+.Coffe__h1{
+	padding-top: 50px;
+}
+
+.Coffe__article main a{
+	font-size: 25px;
+}
+
+/* Footer */
+
+.footer__all footer{
+	background: #373535;
+}
+
+.footer__all{
+	padding-top: 30px;
+}
+
+.footer__job h3{
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+/* Job */
+
+.footer__job h4{
+	font-weight: normal;
+	color: #9B9A9A;
+	padding: 5px 0px;
+	font-size: 19px;
+}
+
+.footer__job{
+	padding-top: 20px;
+	padding-left: 280px;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin: 20px;
+}
+
+/* About */
+
+.footer__about{
+	padding-top: 20px;
+	padding-left: 60px;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin: 20px;
+}
+
+.footer__about h3{
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+.footer__about h4{
+	font-weight: normal;
+	color: #9B9A9A;
+	padding: 5px 0px;
+	font-size: 19px;
+}
+
+/* Contact */
+
+.footer__contact{
+	padding-top: 20px;
+	padding-left: 60px;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin: 20px;
+}
+
+.footer__contact h3{
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+.footer__contact h4{
+	font-weight: normal;
+	color: #9B9A9A;
+	padding: 5px 0px;
+	font-size: 19px;
+}
+
+/* location */
+
+.footer__location{
+	padding-top: 20px;
+	padding-left: 60px;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin: 20px;
+}
+
+.footer__location h3{
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+.footer__location h4{
+	font-weight: normal;
+	color: #9B9A9A;
+	padding: 5px 0px;
+	font-size: 19px;
+}
+
+.Author{
+	padding-left: 20px;
+}
+
+.Author p{
+	color: #9B9A9A;
+	font-size: 18px;
+}
+
+.Author a{
+	font-weight: bold;
+	color: #FFF;
+}
